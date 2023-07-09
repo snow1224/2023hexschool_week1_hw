@@ -1,0 +1,41 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Castoro", serif;
+  }
+  .container {
+    width: 1296px;
+    margin:0 auto;
+  }
+  .font-title {
+    font-size: 128px;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+  }
+  .header-img {
+    display: block;
+    margin:0 auto;
+  }sx
+  .abstract-text {
+    background-color: #EFEFEF;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  footer {
+    background-color: #000000;
+    padding: 64px 0;
+    text-align: center;
+  }
+  .social-media img {
+    width: 64px;
+    margin: 0 20px;
+    vertical-align: middle;
+  }
+  h3{
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+  }
+  span{
+    color: #949494;
+  }
