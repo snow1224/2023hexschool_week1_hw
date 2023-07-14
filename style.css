@@ -17,8 +17,18 @@ body {
     display: block;
     margin:0 auto;
   }
+  .flex-content{
+    display: flex;
+  }
+  .end-p{
+    /* width: 636px; */
+    padding-left: 660px;
+    justify-content: center;
+    align-items: flex-end;
+  }
   .abstract-text {
     background-color: #EFEFEF;
+    height: 432px;
     font-size: 32px;
     line-height: 48px;
   }
@@ -33,9 +43,23 @@ body {
     vertical-align: middle;
   }
   h3{
+    width: 636px;
+    font-size: 20px;
+    line-height: 3;
     color: #AE0000;
     border-bottom: 3px solid #AE0000;
   }
   span{
     color: #949494;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .ml-60{
+    margin-left: 60px;
   }
